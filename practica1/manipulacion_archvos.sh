@@ -14,5 +14,16 @@ mkdir -p networkinfo
 cd networkinfo
 mv ../temp.txt net-info.txt
 
+cd..
+mkdir -p temp
+cd temp
+touch temp.txt
+Tarea de Unix >temp.txt
+
+cat temp.txt
+\rm temp.txt 
+cd.. 
+\rmdir temp/
+
 
 
